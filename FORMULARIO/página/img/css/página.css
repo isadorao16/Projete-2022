@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffffc9;
+    padding: 0rem;
+        }
+
+.form-image img{
+    width: 45rem;
+}
+body{
+    background-color:#16a86b93 ;
+}
+.header{
+    color: rgba(5, 5, 5, 0.76);
+}
