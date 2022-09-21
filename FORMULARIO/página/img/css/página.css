@@ -1,19 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.form-image{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    background-color: #ffffffc9;
-    padding: 0rem;
-        }
-
-.form-image img{
-    width: 45rem;
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
     background-color:#16a86b93 ;
 }
+
+.mapa{
+    text-align: center;
+    padding: 5%;
+}
+.mapa iframe{
+    width: 75rem;
+    height: 90vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    padding: 0rem ;
+     }
+
+
+    
 .header{
     color: rgba(5, 5, 5, 0.76);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    text-align: center;
+    box-sizing:border-box;
+    height:110px;
+    background-color: #fac447c9;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .200);;
 }
+.logo{
+    max-width: auto;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: -160px;
+    left: -110px;
+    
+ 
+ }
+.dados {
+    margin: 0.7rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    justify-content: space-between;
+            
+}
+
+
+
