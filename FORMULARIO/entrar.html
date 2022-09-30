@@ -38,23 +38,23 @@
             height: 100vh;
             display: flex;
             justify-content: center;
-            background: #16a86b93;
+            background:#DF0000 ;
         }
         .container{
-            width: 80%;
+            width: 95%;
             height: 100vh;
             display: flex;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
         }
         .form-image{
-            width: 55%;
+            width: 65%;
             display: flex;
             justify-content: center;
-            background-color: #fac447c9;
+            background-color: #000;
             padding: 1rem;
         }
         .form-image img{
-            width: 31rem;
+            width: 48rem;
         }
         .form{
             width: 600px;
@@ -68,23 +68,29 @@
             padding: 0.8rem 1.2rem;
             border: none;
             border-radius: 10px;
-            box-shadow: 1px 1px 6px #16a86b93;
+            box-shadow: 1px 1px 6px #000;
         }
         .input input:hover{
-            background-color: #eeeeee75;
+            background-color: #63616144;
             
         }
-        .input-send input{
+        .input-send button{
             width: 100%;
             margin-top: 0rem;
             border: none;
-            background-color: #16a86b93;
+            background-color: #DF0000;
             padding: 0.53rem;
             border-radius: 5px;
             cursor: pointer;
         }
-        .input-send input:hover{
-            background-color: #08835093;
+        .input-send button:hover{
+            background-color: #df0000ab;
+        }
+
+        .input-send a{
+            text-decoration: none;
+            font-weight: 500;
+            color: #ffff;
         }
         
 
@@ -93,39 +99,24 @@
 <body>
     <div class = "container">
         <div class = "form-image">
-            <img src="login/img/undraw_login_re_4vu2 (1).svg">
+            <img src="página/img/WhatsApp Image 2022-09-28 at 19.01.07.jpeg">
         </div>
     <div class="form">
     <form form action="#">
        
         <h3>Entre com sua conta</h3>
         <div class="input">
-        <input type="texto" placeholder="Usuário" id="login">
+        <input type="texto" placeholder="Usuário" id="login" required>
         </div>
         <div class="input">
-        <input type="password" placeholder="Senha" id="password">
+        <input type="password" placeholder="Senha" id="password" required>
         </div>
         <div class="input-send">
-        <input type="submit" onclick="logar(); return false">
+        <button><a href="página.html">Enviar</a></button>
         </div>
         </div>
     </form>
 
-    <script>
-        function logar(){
-            var login = document.getElementById('login').value;
-            var Senha = document.getElementById('password').value;
 
-            if(login == "admin" && Senha=="admin"){
-                alert("sucesso");
-                location.href = 'home.html';
-                
-            }
-            else{
-                alert("Usuário ou senha incorretos");
-            }
-        }
-    </script>
-    
 </body>
 </html>
