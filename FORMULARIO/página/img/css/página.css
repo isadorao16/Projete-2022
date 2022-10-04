@@ -17,16 +17,19 @@ body{
 
 .mapa{
     text-align:right;
-    padding: 5%;
+    padding: 3%;
+    margin-right: 3.5%;
+
     
 }
 .mapa iframe{
-    width: 60rem;
+    width: 70rem;
     height: 90vh;
     box-sizing: border-box;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     border-radius: 3%;
     padding: 0rem ;
+    
    
      }
 
@@ -47,30 +50,6 @@ body{
     left: -150px;
     
  }
-
- .dados{
-    color: rgba(5, 5, 5, 0.76);
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-overflow: ellipsis;
-    padding: 1%;
-    box-sizing:border-box;
-    width: 300px;
-    height: 590px;
-    justify-content: left;
-    background-color: #ffff;
-    border-radius: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .200);
-    margin-top: 5%;
-    margin-left: 1.5%;
-
-}
-
-.alinhar {
-    display: flex;
-}
 
 .sair{
     border: none;
